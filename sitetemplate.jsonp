@@ -1,5 +1,5 @@
-initSite(
-    {"template":[
+initSite({
+    "template":[
         {"header#topbar": 
                 ["#logo-container", "#clock-container", "nav#top-menu"]
         }, 
@@ -8,15 +8,16 @@ initSite(
             [{
                 "ul#footer-items": ["#copyright", "#help", "#about"]
             }]
+        }
     ],
-                "settings": {
-    "logo": {
-        "renderto": "logo-container",
-            "src": "http://unifythis.net/images/web_edges_05.gif?width=167&height=124"
-    },
-        "clock": {
-        "renderto": "clock-container",
-            "format": "mm \" minutes past\" hh"
+    "settings": {
+        "logo": {
+            "renderto": "logo-container",
+                "src": "http://unifythis.net/images/web_edges_05.gif?width=167&height=124"
+        },
+            "clock": {
+            "renderto": "clock-container",
+                "format": "mm \" minutes past\" hh"
+        }
     }
-}
-);
+});
