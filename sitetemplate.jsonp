@@ -1,18 +1,8 @@
 initSite(
-{"template":[{
+[{
     "header#topbar": ["#logo-container", "#clock-container", "nav#top-menu"]
 }, [".content", ".content"], 
                 {"footer": [{
     "ul#footer-items": ["#copyright", "#help", "#about"]
-                }]}]},
-                settings:{
-    "logo": {
-        "renderto": "logo-container",
-            "src": "http://www.polycom.com/content/dam/polycom/www/images/company-logo/polycom_logo.png"
-    },
-        "clock": {
-        "renderto": "clock-container",
-            "format": "mm \" minutes past\" hh"
-    }
-}
+                }]}]
 );
