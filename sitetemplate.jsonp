@@ -27,5 +27,8 @@ initSite({
         "bottom-nav":{
             "items":[{,"url":"http://blog.unifythis.net",text:"&copy; Copyright 2014 Simon Booth"}]
         }
-    }
+    },
+    "strings":{
+        "copyright":"(c) Copyright 2014 Simon Booth",
+    };
 });
