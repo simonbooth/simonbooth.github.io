@@ -1,0 +1,8 @@
+initSite(
+{"template":[{
+    "header#topbar": ["#logo-container", "#clock-container", "nav#top-menu"]
+}, [".content", ".content"], 
+                {"footer": [{
+    "ul#footer-items": ["#copyright", "#help", "#about"]
+                }]}]}
+);
