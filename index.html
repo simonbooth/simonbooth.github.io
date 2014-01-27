@@ -11,14 +11,15 @@ var strings = {
     "copyright":"(c) Copyright 2014 Simon Booth",
 };
 function renderWidgets() {
-    renderWidget("clock");
-    renderWidget("logo");
-    renderStrings(strings);
+    
+    
 }
 var initSite = function(config){
-	settings = config.settings;
  renderObject(config.template,$("body"));
- renderWidgets();
+ renderStrings(config.strings);
+ renderWidget(config.settings["clock"]);
+ renderWidget(config.settings["logo"]);
+ renderMenus(config.settings["menus"]);
 }</script>
 
 </head>
